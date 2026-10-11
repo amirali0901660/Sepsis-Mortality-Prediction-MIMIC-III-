@@ -77,7 +77,7 @@ MIMIC-III is not bundled with this repository. To reproduce the research:
 **Execution instructions and dependency versions will be added after the notebook and project files have been reviewed.** No public dataset or runnable end-to-end reproduction is promised at this stage.
 
 ## Limitations
-
+- Methodological limitation: Median imputation was fitted before the train/validation/test split in the original coursework implementation. This introduces potential data leakage and may make the reported evaluation  results optimistic. The notebook is preserved as originally implemented.
 - This is an academic retrospective modeling project, not a validated clinical decision-support system.
 - Model performance on one retrospective MIMIC-III cohort does not establish generalizability to other hospitals, populations, or prospective clinical settings.
 - The reported metrics should be interpreted according to the original study's outcome definition, cohort criteria, and validation design; full details will be documented after review.
